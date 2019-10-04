@@ -1,9 +1,7 @@
-//
-// Created by Esteban Parra on 9/5/19.
-//
+
 
 #include "Jet.h"
-
+#include <cstdlib>
 Jet::Jet() {
 	myEngineNum = 1
 	setBrand("Custom");
