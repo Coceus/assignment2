@@ -1,0 +1,58 @@
+3.E.a from 3.c
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 428 bytes | 428.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Coceus/assignment2.git
+   2f47f7f..8316195  master -> master
+
+3.E.b
+i used git shortlog and it looks like 9 commits in my repository
+
+3.E.c
+git log was used and last commit was
+ Wed Sep 25 18:13:30 2019 
+
+
+3.E.d
+One advantage of branching is that i can takes something out and mess with while still having a copy of the code still. So i can always 
+soem code to fall back on in case i screw everything up. Another advantage is that multiple people can work on the same piece of code
+without having to worry about other people changes while there working on it because they have an isolated copy.
+
+3.E.e
+git status shows if the local repository is upto date with the github repository. It shows you if their are any files you need to comit
+or if you need to push something to keep data alignes with the github repository.
+git log hows information on all the commits including when they happened, what are the changes 
+
+3.E.f
+git log --follow -- Vehicle.h
+
+3.E.g
+gitlog --grep=“file“
+
+3.E.h
+Inhereitence is one object to gain information frm antoher in a parent child relationship. So there will be one at the top the parent or 
+Base class that has protected information that can be viewed by its children or subclasses. 
+Polymorphism is how the program decided whic method it should use based on it class and subclasses. Since there can be multiple methods 
+with the same name polymorphism deal with how the program will decide what method to use
+Encapsilation allows us to hide data from the user so that we can work with it without outside interference. Ive seen it most commenly used
+with getting infromation from one place that is private and unchangable in out side its file and sending it to another programming so that it 
+cant be messed with by the user.
+ 
+3.E.i
+I think that the big difference is that on person is handling all the merging in the integration manager workflow under larger groups it 
+would be hard for one person to handle all the merging and errors that can come up from that merging. In the dictator lutienent model the 
+amount of work done is broken down into smaller increments so that all the work doesnt have to be done by one person.
+
+3.E.j
+THe centerlized workflow bassically has the people doing the work indiviually and then fixing it to the repository. This can be very time 
+consumming especially when their a nonzero chance that two people will commit to the repository at the same time and break or jsut slightly 
+different time and they have to change their code to meet this new merge. Its seems very idivualized. THe dictator lutinent workflow merging 
+is handles by the lutinent and dictator this allows the people lower then lutinent not to worry about merging. It also more together since
+one person can adjust what need to be merged with only the files the have and not the whole piece of code like a centralized group would have to.
+they handle it in small bit which a large group of people would bennifit from. If a 100 people constantly having to adjust thier code and always
+worry about the whole file when they merge code is asking for trouble. While in the dictator relationship it handled in much smaller bit so that
+the hundred people only have to worry about their piece and not the whole of the code every time they merge something.
