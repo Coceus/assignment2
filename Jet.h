@@ -14,8 +14,7 @@ private:
 public:
 	Jet();
 
-	explicit Jet(string brand, string model, string fuelType,
-		int engineNumber);
+	explicit Jet(string brand, string model, string fuelType,int engineNumber);
 
 	virtual ~Jet();
 	int getNumberOfEngines();

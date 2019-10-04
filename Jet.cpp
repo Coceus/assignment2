@@ -3,7 +3,7 @@
 #include "Jet.h"
 #include <cstdlib>
 Jet::Jet() {
-	myEngineNum = 1
+	myEngineNum = 1;
 	setBrand("Custom");
 	setFuelType("diesil");
 	setModel("Millennium falcon");
