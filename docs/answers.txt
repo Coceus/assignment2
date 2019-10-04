@@ -56,3 +56,8 @@ one person can adjust what need to be merged with only the files the have and no
 they handle it in small bit which a large group of people would bennifit from. If a 100 people constantly having to adjust thier code and always
 worry about the whole file when they merge code is asking for trouble. While in the dictator relationship it handled in much smaller bit so that
 the hundred people only have to worry about their piece and not the whole of the code every time they merge something.
+
+5.OOP it definently uses emcapsilation in the file with it gets to access private data. All those get and sets are deffintly emcapsilation
+they are also in every file so that someone can change ceartin data. There is also polymorphism because in PowerVeichile it declare that it
+had a fuelt type funtion and so do the other so it give overiden because of polymorphism. In Vehical there is a model and brand that get 
+changed because of polymorphism in the otherfiles/
