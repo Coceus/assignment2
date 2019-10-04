@@ -5,6 +5,7 @@
 Jet::Jet() {
 	myEngineNum = 1
 	setBrand("Custom");
+	setFuelType("diesil");
 	setModel("Millennium falcon");
 }
 
