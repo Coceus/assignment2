@@ -3,7 +3,7 @@
 #include "Jet.h"
 #include <cstdlib>
 Jet::Jet() {
-	myEngineNum = 1;
+	numberOfEngines = 1;
 	setBrand("Custom");
 	setFuelType("diesil");
 	setModel("Millennium falcon");
@@ -16,27 +16,27 @@ Jet::Jet(string brand, string model, string fuelType, int engineNum) {
 	setEngineNumber(engineNum);
 }
 
+
 Jet::~Jet() = default;
 
 int Jet::getNumberOfEngines() {
-	return myEngineNum;
+	return numberOfEngines;
 }
 
 void Jet::setEngineNumber(int egineNum) {
-	myEngineNum = egineNum;
+	numberOfEngines = egineNum;
 }
 
 
 double Jet::mileageEstimate(double time) {
-	int rand = rand() % 60 +40;
-	double mileage = rand * time;
-	if (fuelType == "Rocket" &&myEngineNum>2) {
-		mileage += mileage * numberOfengines * 0.055;
+	int rand1 = rand() % 60 +40;
+	double mileage = rand1 * time;
+	if (fuelType == "Rocket" &&numberOfEngines >2) {
+		mileage += mileage * numberOfEngines * 0.055;
 	}
 	return mileage;
 }
 
 string Jet::toString() {
-	return "-> Jet\n" + PoweredVehicle::toString() + "\n\tEngine Number: " +
-		getNumberOfEngines();
+	return "-> Jet\n" + PoweredVehicle::toString();
 }
